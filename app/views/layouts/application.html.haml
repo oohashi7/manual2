@@ -38,7 +38,16 @@
             = link_to "ログイン", new_user_session_path, class: 'post'
             = link_to "新規登録", new_user_registration_path, class: 'post'
     .containers
-      .container__left サイドバー
+      .container__left 
+        = link_to "すべて", new_user_registration_path, class: 'post'
+        = link_to "新着", new_user_registration_path, class: 'post'
+        = link_to "フォルダ別", new_user_registration_path, class: 'post'
+        = link_to "ブックマーク", new_user_registration_path, class: 'post'
+        = link_to "問い合わせ先一覧", new_user_registration_path, class: 'post'
+        = link_to "使い方", new_user_registration_path, class: 'post'
+        = link_to "過去の投稿", new_user_registration_path, class: 'post'
+
+        
       .container__right
         = yield
     %footer
