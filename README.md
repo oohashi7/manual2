@@ -1,24 +1,34 @@
-# README
+・アプリ名
+「まにゅあ〜る」
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+・概要
+　マニュアル管理アプリ
 
-Things you may want to cover:
+・本番環境(デプロイ先　テストアカウント＆ID)
+　デプロイ先：http://18.180.119.238/
+　テストアカウント
+　ユーザー名：人事部
+　アドレス：jinji@gmail.com
+　パスワード：jinjibu
 
-* Ruby version
+・制作背景(意図)
+　これまでの職務経験では、人材のマネジメントを行うことが多く、「業務の効率化」に力をいれてきました。
+　多くの現場で課題となっていたことは「新人教育」「人材定着」「情報共有」の三つです。
+　この問題の解決策の一つとして「随時更新できる現場に沿ったマニュアル管理アプリ」を作成しました。
+　OJT（実際の職務現場で業務を通して行う教育訓練）頼みではなく、情報をツール化することで、
+　現場の負担が削減されることを期待しています。
+　
+・DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
+　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
 
-* System dependencies
+・工夫したポイント
+①随時更新できる内容であること
+②簡単に使えるものであること
+③デザインがわかりやすいものあること
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+・使用技術(開発環境)
+　Ruby on Rails version="5.0.7.2"
+ 
+・課題や今後実装したい機能
+　テスト機能
+　ブックマーク機能
